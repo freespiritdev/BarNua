@@ -3,10 +3,16 @@ html, body{
   margin: 20px;
   border: 20px;
   color: red;
+  background-color: #000;
 }
 
 img {
-  max-width: 100%
+  height: 200px;
+  width: 300px;
+}
+
+a {
+  color: #ff0000;
 }
 
 #header{
@@ -14,9 +20,31 @@ img {
 }
 
 .jumbotron {
-  background: url(../images/restaurant4.jpg);
+  background: url(../images/bistro.jpg);
   background-size: cover;
   height: 80%;
+}
+
+.thumbnail{
+    height: 20%;
+    width: 30%;
+    float: left;  
+}
+
+.thumbnail2{
+    height: 20%;
+    width: 30%; 
+    float: left;
+}
+
+.thumbnail3{
+    height: 20%;
+    width: 30%;
+    float: left;
+  
+}
+#about{
+  clear: both;
 }
 
 .extras{
@@ -43,10 +71,6 @@ nav {
   background-color: #ccc
 }
 
-img {
-  max-width: 100%;
-}
-
 h1 {
   text-align: center;
 }
@@ -57,7 +81,6 @@ footer {
   background-color: #000;
   color: red;
   bottom: 0;
- 
   text-align: center;
 
 }
