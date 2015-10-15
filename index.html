@@ -1,5 +1,8 @@
 <html>
   <head>
+    <meta charset="utf-8">
+    <meta lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bistro</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css"></li>
@@ -7,36 +10,52 @@
 
   </head>
   <body>
-    <ul class="nav nav-tabs">
-      <!--<li role="presentation" class="active"><a href="#">Home</a></li>-->
-      <li role="presentation"><a href="#menu2">Menu</a></li>
-      <li role="presentation"><a href="#about">About</a></li>
-    </ul> 
-    <h1>BarNua</h1>
-    <p align="center">222 Somewhere in, San Francisco, CA 94133</p>
+    <nav class="navbar navbar-default navbar-fixed-top navbar navbar-inverse">
+      <div class="container-fluid">
+        <ul class="nav nav-tabs">
+          <li role="presentation"><a href="#drinks">Drinks</a></li>
+          <li role="presentation"><a href="#menu2">Food</a></li>
+          <li role="presentation"><a href="#about">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <h1 id="top">BarNua</h1>
+    <p align="center">561 Columbus Ave, San Francisco, CA 94133 <br>628.444.3101</p>
           
-
+    <!--
     <div class="jumbotron">
+
+    </div>
+    -->
+
+    <!-- <div class="jumbotron">
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pull-right ">
+        <img vspace="20" class="jumbotronw" alt=" " src="./images/bistro.jpg">
+      </div>
+      <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+              
+      </div>
+  </div> -->
+
+    <div class="container-fluid">
+      <div class="row">
+          <div class="thumbnail2">
+            <img src="images/bistro.jpg">
+          </div>
+          <div class="thumbnail3">
+            <img src="images/bistro2.jpg">
+          </div>
+          <div class="thumbnail2">
+            <img src="images/bistro4.jpg">
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="container-fluid">
       <div class="row">
-        <div class="thumbnail2">
-          <img src="images/bistro2.jpg">
-        </div>
-        <div class="thumbnail3">
-          <img src="images/bistro3.jpg">
-        </div>
-         <div class="thumbnail2">
-          <img src="images/bistro2.jpg">
-        </div>
-      </div>
-    </div>
-    <div></div>
-
-    <div class="container-fluid" >
-      <div class="row">
-        <div class="col-md-5" id="#menu2">
+        <div class="col-xs-6" id="menu2">
           <h2>APPETIZERS</h2>
 
           <h4><em>Chicken Wings 12</em></h4>
@@ -57,9 +76,7 @@
           <h4><em>Fish Tacos 11</em></h4>
           <p>Cajun seasoned cod with lemon aioli, shredded lettuce and seasonal fruit</p>
         </div>
-  
-      
-        <div class="col-md-5" id="salads">
+        <div class="col-xs-6">
           <h2>Salads</h2>
 
           <h4><em>Green Salad 10</em></h4>
@@ -69,18 +86,16 @@
           <p>with goat cheese, candied walnuts and sherry vinaigrette</p>
 
           <h4><em>Caesar Salad 10</em></h4>
-          <p>house made dressing, sourdough herb croutons and parmesan</p>
+          <em>house made dressing, sourdough herb croutons and parmesan</em>
 
-          <p>Add Grilled Chicken to Any Salad 4</p>
+          <em>Add Grilled Chicken to Any Salad 4</em>
         </div>
       </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-5">
+      <div class="container-fluid">
+        <div class="col-xs-6">
           <h2>Burgers</h2>
 
-          <p class="extras">Served on a rustic roll with lettuce, tomato and house made pickle and fries</p><br>
+          <p class="extras"><small>Served on a rustic roll with lettuce, tomato and house made pickle and fries</small></p><br>
 
           <h4><em>BarNua Burger 15</em></h4>
           <p>grilled half pound patty, spicy sirachi aioli, lettuce, tomatoes, pickles, bacon jam and sharp cheddar cheese</p>
@@ -94,8 +109,7 @@
           <p class="extras">Add: cheese or grilled onions -  2 each</p><br>
           <p class="extras">Add: sweet potato fries, bacon, avocado or mushrooms -  3 each</p>
         </div>
-
-        <div class="col-md-5">
+        <div class="col-xs-6">
           <h2>Sandwiches</h2>
 
           <h4><em>BLT 11</em></h4>
@@ -111,10 +125,9 @@
           <p>house pulled pork, Black Forest ham, pickles and Swiss cheese with mustard aioli</p>
         </div>
       </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-5">
+      
+      <div class="container-fluid">
+        <div class="col-xs-6">
           <h2>Main Courses</h2>
 
           <h4><em>Fish And Chips 14</em></h4>
@@ -130,18 +143,50 @@
           <p>chicken breastand vegetables in a white gravy topped with a puff pastry</p>
         </div>
       </div>
+      <a href="#top">Back to the top</a>
+   
+
+    <div class="container-fluid">
+      <h2>Drinks</h2>
+      <div class="row">
+        <div class="col-xs-6" id="drinks">
+          <h3>Beer</h3>
+          <h4><em>Stella</em></h4>
+        </div>
+        <div class="col-xs-6">
+          <h3>Wine</h3>
+          <h4><em>Pinot Noir</em></h4>
+        </div>
+      </div>
+      <a href="#top">Back to the top</a>
+    </div>
+  </div>
+    
+    
+
+    <div class="container-fluid" >
+      <div class="row">
+        <div class="col-md-12" id="about">
+          <h2>About</h2>
+
+          <p>Flexitarian tofu swag Marfa vinyl you probably haven't heard of them, keffiyeh readymade fingerstache. Disrupt butcher paleo you probably haven't heard of them irony vinyl, lomo pork belly. Migas tote bag Banksy, chia synth scenester Vice raw denim asymmetrical actually cold-pressed Schlitz vinyl cray direct trade. DIY Tumblr keytar ethical, beard quinoa crucifix bitters fashion axe deep v Thundercats. Four loko meh occupy, keffiyeh slow-carb hoodie locavore Echo Park. Four loko narwhal kitsch organic plaid, church-key Blue Bottle banh mi cornhole. Leggings raw denim four dollar toast cliche Vice, PBR health goth street art.
+          </p>
+        </div>
+      </div>
+      <a href="#top">Back to the top</a>
     </div>
 
     <div class="container-fluid">
-      <footer>
-        <span>Hours: </span><strong>Mon-Thur 11:30 AM - 12:00 AM, Fri-Sun 11:30 AM - 2:00 AM </strong><br>
-        <span>Phone: </span><strong>415.555.5555</strong><br>
-        <span>Address:</span> <strong>222 Somewhere in, San Francisco, CA 94133</strong>
-      </footer>
+      <div class="col-md-12">
+        <footer>
+          <span>Hours: </span><strong>Mon-Thur 11:30 AM - 12:00 AM, Fri-Sun 11:30 AM - 2:00 AM </strong><br>
+          <span>Phone: </span><strong>628.444.3101</strong><br>
+          <span>Address:</span> <strong>561 Columbus Ave, San Francisco, CA 94133</strong>
+        </footer>
+      </div>
     </div>
 
     <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
