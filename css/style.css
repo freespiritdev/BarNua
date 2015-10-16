@@ -54,12 +54,6 @@ nav{
   text-align: center;
   color: #fff;
 }
-.jumbotron {
-  background: url(../images/bistro.jpg);
-  background-size: cover;
-  height: 70%;
-  max-width: 100%;
-}
 
 .thumbnail{
     height: 20%;
