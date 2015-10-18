@@ -1,12 +1,13 @@
 html, body{
   height: 100%;
-  color: red;
+  color: #ff0000;
   background-color: #000;
-  padding-top: 70px;
+  padding-top: 40px;
 }
 h2 {
-  text-align: center;
+  
   text-transform: uppercase;
+  color: #fff;
 }
 
 h1 {
@@ -14,9 +15,10 @@ h1 {
 }
 
 div{
-  margin-top: 1%;
-  margin-bottom: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
+
 img {
   height: 200px;
   width: 300px;
@@ -29,12 +31,9 @@ a {
 }
 
 a:hover{
-  color: red;
-}
+  color: #ff0000;
+  text-decoration: none;
 
-ul {
-  list-style-type: none;
-  display: inline;
 }
 
 span {
@@ -50,24 +49,37 @@ nav{
   z-index: 10;
 }
 
+.nav-pills > li > a:hover{
+  background-color: transparent;
+  border-style: hidden;
+  color: #fff;
+}
+
+.enlarge:hover{
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  color: #fff;
+}
+
 .center{
   text-align: center;
   color: #fff;
 }
 
-.thumbnail{
+#img1{
     height: 20%;
     width: 30%;
     float: left;  
 }
 
-.thumbnail2{
+#img2{
     height: 20%;
     width: 30%; 
     float: left;
 }
 
-.thumbnail3{
+#img3{
     height: 20%;
     width: 30%;
     float: left;
@@ -75,7 +87,7 @@ nav{
 }
 
 .extras{
-  color: #fff;
+  color: #8590a6;
   font-weight: bold;
 }
 
@@ -84,32 +96,49 @@ nav{
   color: #000;
 }
 
-footer{
+#footer{
   position:fixed;
   bottom:0;
   left:0;
   width:100%;
   text-align:center;
   background-color: #000;
-  height: 20%;
+  height: 8%;
   font-size:.8em;
   }
 
-@media screen and (max-width: 600px){ 
+
+/* Large desktop */
+@media (min-width: 1200px) {  
   footer {
-    height: 5%;
+    height: 6%;
+  }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+   footer {
+    height: 10%;
+  }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  footer {
+  height: 17%;
+  }
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+ footer {
+  height: 4.5%;
   }
 
   div{
     margin-top: 20px;
   }
 }
-
-@media screen and (min-width: 768px){ 
-  footer {
-    height: 10%;
-  }
-}
-
 
   
