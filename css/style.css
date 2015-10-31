@@ -3,6 +3,7 @@ html, body{
   color: #ff0000;
   background-color: #000;
   padding-top: 40px;
+  font-family: 'Fredoka one', Arial;
 }
 h2 {
   text-transform: uppercase;
@@ -255,5 +256,7 @@ header{
 
 
   }
+
+
 
   
