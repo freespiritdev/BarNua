@@ -150,15 +150,27 @@ iframe{
   color: #000;
 }
 
+.jumbotron{
+  background-color: transparent !important;
+  margin-bottom: 0px;
+  background-image: url(../images/barnua2.jpg);
+  background-position: 0% 35%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 520px;
+  width: 80%;
+  margin-left: 4%
+
+}
+
 #footer{
-  position:fixed;
-  bottom:0;
-  left:0;
-  width:100%;
-  text-align:center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
   background-color: #000;
   height: 10%;
-  font-size:.8em;
+  font-size: .8em;
   }
 
 .top-footer{
