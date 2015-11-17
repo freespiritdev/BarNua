@@ -5,9 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BarNua</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css"></li>
+    
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
- 
+    <link href='https://fonts.googleapis.com/css?family=Yesteryear|Montez' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css"></li>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/app.js"></script>
   </head>
 
   <body id="top">
@@ -45,10 +52,20 @@
     <img src="images/barnua.png" id="logo" class="enlarge">
     </div>
 
-    <div class="jumbotron vertical-center">
-       
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <img src="images/barnua1.jpg"/>
+        </li>
+        <li>
+          <img src="images/barnua2.jpg"/>
+        </li>
+        <li>
+          <img src="images/barnua6.jpg"/>
+        </li>
+      </ul>
     </div>
-          
+
     <div class="container-fluid">
       <div class="row">
         <div id="img1" class="enlarge">
@@ -292,12 +309,9 @@
       </div>
     </div>
 
-    <div class="clearfix visible-xs-block">
-      <div class="map">
-       <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1443587168961!6m8!1m7!1siYcy_UyJ7dUAAAQu5OT8Ag!2m2!1d37.80002984207542!2d-122.4100390338171!3f198.5805699410294!4f-8.138658279909777!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-   
-    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1443587168961!6m8!1m7!1siYcy_UyJ7dUAAAQu5OT8Ag!2m2!1d37.80002984207542!2d-122.4100390338171!3f198.5805699410294!4f-8.138658279909777!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    
 
     <div class="footer">
       <strong class="top-footer">We Charge an 18% Gratuity on Parties of 6 or More</strong><br>
@@ -307,8 +321,8 @@
       <span>Address:</span> <strong>561 Columbus Ave, San Francisco, CA 94133</strong>
     </div>
 
-    <script src="js/jquery.js"></script>
+    
     <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+    
   </body>
 </html>
