@@ -5,6 +5,7 @@ html, body{
   padding-top: 40px;
   font-family: 'Fredoka one', Arial;
 }
+
 h2 {
   text-transform: uppercase;
   color: #fff;
@@ -17,13 +18,18 @@ h1 {
 div{
   margin-top: 0%;
   margin-bottom: 5%;
-  width: 90%;
+  width: 100%;
 }
 
-img {
-  height: 200px;
-  width: 300px;
+/*img {
+  height: 50%;
+  width: 50%;
   margin-left: 50%;
+}*/
+img{
+  max-width:100%;  
+  padding: 4;
+  height:auto;
 }
 
 a {
@@ -64,6 +70,14 @@ header{
   height:50%; 
   width:50%;
   max-width:50%;
+}
+
+.flexslider {
+  border: 0px;
+  padding: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
 }
 
 iframe{
@@ -116,28 +130,28 @@ iframe{
 }
 
 #logo{
-  height: 20%;
+  height: 50%;
   width: 10%;
   top: 3px;
   margin-left: 50%;
 }
 
 #img1{
-    height: 20%;
-    width: 30%;
-    float: left;  
+  height: 20%;
+  width: 30%;
+  float: left;  
 }
 
 #img2{
-    height: 20%;
-    width: 30%; 
-    float: left;
+  height: 20%;
+  width: 30%; 
+  float: left;
 }
 
 #img3{
-    height: 20%;
-    width: 30%;
-    float: left;
+  height: 20%;
+  width: 30%;
+  float: left;
 }
 
 .extras{
@@ -150,19 +164,6 @@ iframe{
   color: #000;
 }
 
-.jumbotron{
-  background-color: transparent !important;
-  margin-bottom: 0px;
-  background-image: url(../images/barnua2.jpg);
-  background-position: 0% 35%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 520px;
-  width: 80%;
-  margin-left: 4%
-
-}
-
 #footer{
   bottom: 0;
   left: 0;
@@ -171,7 +172,7 @@ iframe{
   background-color: #000;
   height: 10%;
   font-size: .8em;
-  }
+}
 
 .top-footer{
   color: #fff;
@@ -187,17 +188,16 @@ iframe{
   div{
   margin-top: 0%;
   margin-bottom: 5%;
-  width: 90%;
-}
+  width: 100%;
+  }
 
-  img {
-    height: 200px;
-    width: 300px;
-    margin-left: 50%;
+  img{
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #logo{
-    height: 25%;
+    height: 50%;
     width: 15%;
     top: 3px;
     margin-left: 50%;
@@ -214,10 +214,12 @@ iframe{
     font-size: 1em;
   }
 
-  img {
-    height: 150px;
-    width: 200px;
+  #logo{
+    height: 40%;
+    width: 40%;
+    margin-left: 20%;
   }
+
   .enlarge:hover{
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
@@ -227,6 +229,7 @@ iframe{
     margin-bottom: 9%;
     width: 100%;
   }
+
   #map-display img{
     max-width:  none !important;
     background: none !important;
@@ -243,9 +246,11 @@ iframe{
   text-align: left;
   }
 
-  img {
-    height: 70px;
-    width: 120px;
+  iframe{
+    height: auto;
+    width: auto;
+    margin-left: 10%;
+    border:0;
   }
 
   .enlarge:hover{
@@ -256,7 +261,7 @@ iframe{
 
   div{
     margin-bottom: 6%;
-    width: 80%;
+    width: 100%;
   }
 
   #map-display img{
@@ -278,7 +283,7 @@ iframe{
 
   div{
     margin-bottom: 9%;
-    width: 80%;
+    width: 100%;
   }
 
   #map-display img{
@@ -303,7 +308,7 @@ iframe{
 }
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2)and (min-resolution: 192dpi){
-    #footer {
+  #footer {
     height: 10%;
   }
 }

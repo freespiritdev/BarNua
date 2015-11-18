@@ -4,7 +4,8 @@ jQuery(window).load(function() {
   $('.flexslider').flexslider({
     animation: "slide",
     slideshow: true,
-    direction: "horizontal"
+    directionNav: false,
+    direction: "vertical"
   });
 });
 })(jQuery);

@@ -1,328 +1,96 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta lang="en">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BarNua</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Yesteryear|Montez' rel='stylesheet' type='text/css'>
+    <title></title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/flexslider.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css"></li>
+    <link rel="stylesheet" href="../style3.css" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script src="js/jquery.flexslider-min.js"></script>
     <script src="js/app.js"></script>
   </head>
-
-  <body id="top">
-    <header>
-      <nav>
-        <div class="navbar">
-          <div class="navbar-inner">
-            <div class="container">
-         
-              <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-              <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </a>
-         
-              <!-- Be sure to leave the brand out there if you want it shown -->
-              <a class="menuBtn" href="#">BarNua</a>
-              <a class="menuBtn" href="#drinks">Drinks</a>
-              <a class="menuBtn" href="#food">Food</a>
-              <a class="menuBtn" href="#about">About</a>
-         
-            <!-- Everything you want hidden at 940px or less, place within here -->
-              <div class="nav-collapse collapse">
-              <!-- .nav, .navbar-search, .navbar-form, etc -->
-              </div>
-       
-            </div>
+  <body>
+    <div class="">
+      <a href="#" class="logo" title="BarNua">
+        <img src="images/logo5.png">
+      </a>
+     
+    <header class="header">
+      <section class="left">
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <a href="Drinks">Drinks</a>
+            <div class="pull-right">
+              <a href="Food">Food</a>  
+            </div> 
           </div>
-        </div>
-      </nav>
+        </nav>
+      </section>
     </header>
-    
-    <div class="logo">
-    <img src="images/barnua.png" id="logo" class="enlarge">
-    </div>
 
     <div class="flexslider">
       <ul class="slides">
         <li>
-          <img src="images/barnua1.jpg"/>
+          <img src="images/barnua1.jpg" />
         </li>
         <li>
-          <img src="images/barnua2.jpg"/>
+          <img src="images/barnua2.jpg" />
         </li>
         <li>
-          <img src="images/barnua6.jpg"/>
+          <img src="images/barnua6.jpg" />
         </li>
+         <li>
+          <img src="images/barnua7.jpg" />
+        </li>
+         <li>
+          <img src="images/barnua8.jpg" />
+        </li>
+
       </ul>
     </div>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div id="img1" class="enlarge">
-          <img src="images/barnua1.jpg">
-        </div>
-        <div id="img2" class="enlarge">
-          <img src="images/barnua2.jpg">
-        </div>
-        <div id="img3" class="enlarge">
-          <img src="images/barnua6.jpg">
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-lg-6" >
-          <h2 id="food">APPETIZERS</h2>
-
-          <h4><em>Chicken Wings <span>12</span></em></h4>
-          <p>buffalo, house made apricot teriyaki with gorgonzola dressing and veggies</p>
-
-          <h4><em>Beef Sliders <span>12</span></em></h4>
-          <p>with bacon and blue cheese</p>
-
-          <h4><em>Grilled Chicken Skewers <span>10</span></em></h4>
-          <p>with peanut butter sauce, sweet and sour pickled cucumbers and red onions</p>
-
-          <h4><em>Spicy Calamari <span>10</span></em></h4>
-          <p>with roasted peanuts, peppers and scallions</p>
-
-          <h4><em>Smoked Salmon <span>12</span></em></h4>
-          <p>with dill sauce and house made potato cakes</p>
-
-          <h4><em>Fish Tacos <span>11</span></em></h4>
-          <p>Cajun seasoned cod with lemon aioli, shredded lettuce and seasonal fruit</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-lg-6">
-          <h2>Salads</h2>
-
-          <h4><em>Green Salad <span>10</span></em></h4>
-          <p>greens with apples, candied walnuts, house balsamic vinaigrette, blue cheese and red onions</p>
-
-          <h4><em>Beet Salad <span>11</span></em></h4>
-          <p>with goat cheese, candied walnuts and sherry vinaigrette</p>
-
-          <h4><em>Caesar Salad <span>10</span></em></h4>
-          <em>house made dressing, sourdough herb croutons and parmesan</em>
-
-          <em>Add Grilled Chicken to Any Salad 4</em>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-lg-6">
-          <h2>Burgers</h2>
-
-          <p class="extras"><small>Served on a rustic roll with lettuce, tomato and house made pickle and fries</small></p><br>
-
-          <h4><em>BarNua Burger <span>15</span></em></h4>
-          <p>grilled half pound patty, spicy sirachi aioli, lettuce, tomatoes, pickles, bacon jam and sharp cheddar cheese</p>
-
-          <h4><em>Black Bean Burger <span>12</span></em></h4>
-          <p>house made black bean patty, chipotle aioli, lettuce, pico de gallo and cheddar cheese</p>
-
-          <h4><em>North Beach Burger <span>11</span></em></h4>
-          <p>grilled 1/3 pound patty, mayo, lettuce, tomatoes and pickles</p><br>
-
-          <p class="extras">Add: cheese or grilled onions -  2 each</p><br>
-          <p class="extras">Add: sweet potato fries, bacon, avocado or mushrooms -  3 each</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-lg-6">
-          <h2>Sandwiches</h2>
-
-          <h4><em>BLT <span>11</span></em></h4>
-          <p>with light mayo on whole wheat bread</p>
-
-          <h4><em>Tuna Wrap <span>11</span></em></h4>
-          <p>tuna salad, red onions, fresh jalapenos and mixed green salad with sherry vinaigrette in a flour tortilla</p>
-
-          <h4><em>Guinness Corned Beef Reuben <span>12</span></em></h4>
-          <p>with sauerkraut, Swiss cheese, 1000 island dressing on marble rye bread</p>
-
-          <h4><em>Cuban Sandwich <span>12</span></em></h4>
-          <p>house pulled pork, Black Forest ham, pickles and Swiss cheese with mustard aioli</p>
-        </div>
-      </div>
-    </div>
-      
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-lg-6">
-          <h2>Main Courses</h2>
-
-          <h4><em>Fish And Chips <span>14</span></em></h4>
-          <p>beer battered Atlantic Cod, mushy peas, lemons and house made tartar sauce</p>
-
-          <h4><em>Bangers And Mash <span>14</span></em></h4>
-          <p>two plump pork sausages, stewed onions, vegetables and savory gravy</p>
-
-          <h4><em>Cottage Pie <span>14</span></em></h4>
-          <p>traditional meat pie with ground beef and vegetables topped withmashed potatoes</p>
-
-          <h4><em>Chicken Pot Pie <span>14</span></em></h4>
-          <p>chicken breastand vegetables in a white gravy topped with a puff pastry</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-lg-6">
-          <div id="img3" class="enlarge">
-            <img src="images/potpie.jpg">
+    <div class="pub">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-lg-6">
+            <h3>Food</h3>
+            <p><a class="btn btn-danger" href="food.pdf">View Food Menu</a></p>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-lg-6">
+            <h3>Drinks</h3>
+            <p><a class="btn btn-danger" href="drinks.pdf">View Drink Menu</a></p>
           </div>
         </div>
-      </div>
+      </div> 
+    </div>
+
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1443587168961!6m8!1m7!1siYcy_UyJ7dUAAAQu5OT8Ag!2m2!1d37.80002984207542!2d-122.4100390338171!3f198.5805699410294!4f-8.138658279909777!5f0.7820865974627469"  frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>    
-    <div class="center">
-      <a href="#top"><span>Back to top</span></a>
-    </div>
-    
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-lg-6">
-
-          <h2 id="drinks">Wines</h2>
-          <h4><em>Sparkling, Mionetto, Prosecco <span>9</span></em></h4>
-          <h4><em>Sparkling, Mumm, Napa <span>11</span></em></h4>
-          <h4><em>Pinot Grigio, Gabbiano Promessa, Italy <span>7</span></em></h4>
-          <h4><em>Fume Blanc, Ferrari Carano, Sonoma <span>9</span></em></h4>
-          <h4><em>Chardonnay, Rodney Strong, Sonoma <span>10</span></em></h4>
-          <h4><em>Chardonnay, Hess Shirtail, Monterey  <span>8</span></em></h4>
-          <h4><em>Chianti Superiore, Ruffino, Italy <span>8</span></em></h4>
-          <h4><em>Pinot Noir, Chateau St. Jean, California <span>8</span></em></h4>
-          <h4><em>Merlot, Coppola, California <span>10</span></em></h4>
-          <h4><em>Cabernet, Parducci, Mendocino County <span>9</span></em></h4>
-          <h4><em>Cabernet, Hess, North Coast <span>11</span></em></h4>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-lg-6">
-          <h2>Bottled Beers</h2>
-          <h4><em>Bud Light <span>4</span></em></h4>
-          <h4><em>Coors Light <span>4</span></em></h4>
-          <h4><em>Magners Cider <span>5</span></em></h4>
-          <h4><em>Corona <span>5</span></em></h4>
-          <h4><em>Amstel Light <span>5</span></em></h4>
-          <h4><em>Heineken <span>5</span></em></h4>
-          <h4><em>Becks <span>5</span></em></h4>
-          <small>Non-Alcoholic</small> 
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6 col-lg-6" id="menu2">
-          <h2>Beers on Draught</h2>
-          <h4><em>10 Barrel Brewing <span>6</span></em></h4>
-          <small>Joe IPA, Bend, Oregon</small>
-          <small>6.9%</small>
-
-          <h4><em>Laguinitas <span>6</span></em></h4>
-          <small>Lil Sumpin, Petaluma, California</small>
-          <small>7.5%</small>
-
-          <h4><em>Deschutes <span>6</span></em></h4>
-          <small>Freshly Squeezed IPA, Bend, Oregon</small>
-          <small>6.4%</small>
-
-          <h4><em>Firestone <span>6</span></em></h4>
-          <small>Pivo Pils, Paso Robles, California</small>
-          <small>5.3%</small>
-
-          <h4><em>Stella Artois <span>6</span></em></h4>
-          <small>Belgium</small>
-          <small>5.2%</small>
-
-          <h4><em>Budweiser <span>6</span></em></h4>
-          <small>Fairfield, California</small>
-          <small>5.0%</small>
-
-          <h4><em>Goose Island <span>6</span></em></h4>
-          <small>312 Wheat, Chicago, Illinois</small>
-          <small>4.2%</small>
-
-          <h4><em>Smithwicks <span>6</span></em></h4>
-          <small>Kilkenny, Ireland</small>
-          <small>4.5%</small>
-
-          <h4><em>Guinness <span>7</span></em></h4>
-          <small>Dublin, Ireland</small>
-          <small>4.2%</small>
-
-          <h4><em>Anchor Steam <span>6</span></em></h4>
-          <small>San Francisco, California</small>
-          <small>4.9%</small>
-
-          <h4><em>Heineken Brewlock <span>6</span></em></h4>
-          <small>Netherlands</small>
-          <small>5.0%</small>
-
-          <h4><em>Ballast Point <span>7</span></em></h4>
-          <small>Sculpin Grapefruit IPA</small>
-          <small>San Deigo, California</small>
-          <small>7%</small>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-lg-6">
-          <h2>House Cocktails</h2>
-          <h4><em>First Glance <span>9</span></em></h4>
-          <small>Absolut mandarin, aperol, grapefruit juice, lemon juice, agave syrup & prosecco</small>
-
-          <h4><em>Italian Rose <span>10</span></em></h4>
-          <small>209 gin, licor 43, fresh lemon juice, pom juice</small>
-
-          <h4><em>American Lemonade <span>9</span></em></h4>
-          <small>Jim Beam, Jim Beam honey, lemon juice, simple syrup & soda</small>
-
-          <h4><em>Wskyber <span>10</span></em></h4>
-          <small>makers, kings ginger liquer, lemon juice, honey syrup, organic beer lager & fresh ginger</small>
-
-          <h4><em>Cucumber Pimms Cup <span>9</span></em></h4>
-          <small>pimms, lemon juice, simple syrup elderower & ginger beer</small>
-
-          <h4><em>Spicy Margarita <span>9</span></em></h4>
-          <small>altos tequila, triple sec, lime juice, agave & jalapeño</small>
-
-          <h4><em>Best Dammed Bloody in town <span>9</span></em></h4>
-          <small>absolut vodka & house made bloody mary mix</small>
-
-          <h4><em>Irish Mule <span>9</span></em></h4>
-          <small>Irish whiskey, ginger beer & lime juice</small><br>
-        </div>
-      </div>
-    </div>
-    
-    <div class="container-fluid" >
-      <div class="row">
-        <div class="col-xs-12 col-sm-12 col-lg-12" id="about">
-          <h2>About</h2>
-
-          <p>Flexitarian tofu swag Marfa vinyl you probably haven't heard of them, keffiyeh readymade fingerstache. Disrupt butcher paleo you probably haven't heard of them irony vinyl, lomo pork belly. Migas tote bag Banksy, chia synth scenester Vice raw denim asymmetrical actually cold-pressed Schlitz vinyl cray direct trade. DIY Tumblr keytar ethical, beard quinoa crucifix bitters fashion axe deep v Thundercats. Four loko meh occupy, keffiyeh slow-carb hoodie locavore Echo Park. Four loko narwhal kitsch organic plaid, church-key Blue Bottle banh mi cornhole. Leggings raw denim four dollar toast cliche Vice, PBR health goth street art.
-          </p>
-        </div>  
-      </div>
-    </div>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1443587168961!6m8!1m7!1siYcy_UyJ7dUAAAQu5OT8Ag!2m2!1d37.80002984207542!2d-122.4100390338171!3f198.5805699410294!4f-8.138658279909777!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-    
 
     <div class="footer">
-      <strong class="top-footer">We Charge an 18% Gratuity on Parties of 6 or More</strong><br>
-     
-      <span>Hours: </span><strong>Mon-Thur 11:30 AM - 12:00 AM, Fri-Sun 11:30 AM - 2:00 AM </strong><br>
-      <span>Phone: </span><strong>628.444.3101</strong><br>
-      <span>Address:</span> <strong>561 Columbus Ave, San Francisco, CA 94133</strong>
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-8 col-sm-4 col-lg-4">
+                <h3>Hours</h3>
+                <p>Mon-Thur  11:30 AM - 12:00 AM</p>
+                <p>Fri-Sun 11:30 AM - 2:00 AM </p> 
+                 <p>Phone: 628.444.3101</p>  
+              </div>
+              <div class="col-xs-8 col-sm-4 col-lg-4 pull-right">
+                <h3>Visit Us!</h3>
+                <p>561 Columbus Ave<br>San Francisco, CA 94133</p>
+
+              </div>
+            </div>
+          </div>
+      </div>
     </div>
 
-    
-    <script src="js/bootstrap.min.js"></script>
-    
+            
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
   </body>
 </html>
