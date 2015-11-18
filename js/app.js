@@ -11,3 +11,6 @@ jQuery(window).load(function() {
 })(jQuery);
 });
 
+$('.carousel').carousel({
+   interval: 30
+})
