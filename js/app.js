@@ -1,16 +1,7 @@
 $( document ).ready(function() {
-(function($) {
-jQuery(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide",
-    slideshow: true,
-    directionNav: false,
-    direction: "vertical"
-  });
+$( "#mySliderDiv" ).slider({
+    orientation: "vertical"
 });
-})(jQuery);
 });
 
-$('.carousel').carousel({
-   interval: 30
-})
+
