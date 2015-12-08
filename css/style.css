@@ -35,10 +35,14 @@ a{
   color: #fff;
   line-height: 2.4;
 }
+
 a:hover{
-  color: red;
+  color: #ff0000;
   text-decoration: none;
+  border-radius:30%;
+  background-color: #fff;
 }
+
 li{
   list-style-type: none;
 }
