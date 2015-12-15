@@ -1,6 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 html, body{
   background-color: #000;
   color: #ffffff;
+  text-transform: uppercase;
 }
 
 body { 
@@ -8,12 +15,13 @@ body {
 }
 
 span{
-  font-size: 42px; 
+  font-size: 20px; 
 }
+
 
 h1{
   text-align: center;
-  text-transform: uppercase;
+  
 }
 
 h3{
@@ -35,10 +43,10 @@ img{
 }
 
 iframe{
-  height:400px;
-  width: 640px;
+  height:100%;
+  width: 100%;
   border:0;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -50,9 +58,11 @@ a{
   line-height: 2.4;
 }
 
+a:hover{
+  color: #ff0000;
+}
+
 ul{
-  margin: 0;
-  padding: 0;
   list-style-type: none;
   font-weight: bold;
 }
@@ -65,28 +75,30 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 12px 14px;
+  padding: 10px 12px;
+  margin-top: -16px;
+
 }
 
 li a:hover{
   color: #ff0000;
   text-decoration: none;
-  border-radius:30%;
+  border-radius: 20%;
   background-color: #fff;
 }
 
 .navbar{
   background-color: #000;
   border-style: dashed; 
-  min-height: 32px;
+  min-height: 20px;
   border-color: #ff0000;
   border-width: 0px 0px 2px;
   z-index: 20;
 }
 
 .pub:hover{
-    background:#fff;
-    color: #000;
+  background:#fff;
+  color: #000;
 }
 
 div.pub{
@@ -94,38 +106,66 @@ div.pub{
 }
 
 .map{
-  width: 800px;
+  height: 300px;
+  width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.right {
-  text-align: right;
-}
-
-.logo img{
-  border: 0px;
-  margin-top: -2.66em;
-  position: fixed;
-  left: 20%;
-  margin-left: 302px;
-  z-index: 30;
-}
 
 .btn{
   margin-left: -11px;
 }
 
-.flex-control-nav{
-  background-color: #fff;
-  margin: 0 0 10x;
-}
 .flexslider{
-  margin: 0 0 20x;
-  background-color: #fff;
+  background-color: #000;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 2px;
+  width: 70%;
+}
+
+.flex-control-nav{
+  background-color: transparent;
+  margin: auto;
+  bottom: 0;
+}
+
+.flex-control-paging li a{
+  background: #fff;
+ } 
+
+ .flex-control-paging li a.flex-active{
+  background: #ff0000;
+ }
+
+.flex-control-paging li{
+  float: none;
 }
 
 .footer{
   margin-top: 10%;
 }
+
+@media screen and (max-width: 667px) { 
+  .btn {
+    margin-left: 30%;
+  }
+
+  .container-fluid{
+    display: none;
+  }
+
+  iframe{
+    height:50%;
+    width: 50%;
+    margin-left: 20%;
+  }
+}
+
+
 
