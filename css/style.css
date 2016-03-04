@@ -1,0 +1,171 @@
+*{
+  margin:   0;
+  padding:  0;
+  border:   0;
+}
+
+html, body{
+  background-color:   #000;
+  color:              #ffffff;
+  text-transform:     uppercase;
+  font-size:          18px;
+}
+
+body { 
+  padding-top: 70px; 
+}
+
+span{
+  font-size: 20px; 
+}
+
+h1{
+  text-align:  center;
+  
+}
+
+h3{
+  margin-top:  20%;
+}
+
+h4{
+  margin-top:     auto;
+  margin-bottom:  auto;
+}
+
+em{
+  color:        #ff0000;
+  margin-top:   2%;
+}
+
+img{
+  border: 12px solid #000000;
+}
+
+iframe{
+  height:         100%;
+  width:          100%;
+  border:         0;
+  margin-top:     80px;
+  margin-left:    auto;
+  margin-right:   auto;
+}
+
+a{
+  text-decoration:  none;
+  display:          inline-block;
+  color:            #fff;
+  line-height:      2.4;
+}
+
+a:hover{
+  color:  #ff0000;
+}
+
+ul{
+  list-style-type:  none;
+  font-weight:      bold;
+}
+
+li{
+  float: left;
+}
+
+li a {
+  display:      block;
+  color:        white;
+  text-align:   center;
+  padding:      10px 12px;
+  margin-top:   -16px;
+}
+
+li a:hover{
+  color:              #ff0000;
+  text-decoration:    none;
+  border-radius:      20%;
+  background-color:   #fff;
+}
+
+li a:visited{
+  color:            #fff;
+  text-decoration:  none;
+}
+
+.navbar{
+  background-color:   #000;
+  border-style:       dashed; 
+  min-height:         20px;
+  border-color:       #ff0000;
+  border-width:       0px 0px 2px;
+  z-index:            20;
+}
+
+.pub:hover{
+  background:   #fff;
+  color:        #000;
+}
+
+div.pub{
+  padding-bottom: 8%;
+}
+
+.map{
+  height:         300px;
+  width:          400px;
+  margin-left:    auto;
+  margin-right:   auto;
+}
+
+.btn{
+  margin-left:  -11px;
+}
+
+.flexslider{
+  background-color:       #000;
+  margin-right:           auto;
+  margin-left:            auto;
+  -webkit-border-radius:  5px;
+  -moz-border-radius:     5px;
+  -o-border-radius:       5px;
+  border-radius:          5px;
+  padding:                2px;
+  width:                  70%;
+}
+
+.flex-control-nav{
+  background-color:     transparent;
+  margin:               auto;
+  bottom:               0;
+}
+
+.flex-control-paging li a{
+  background: #fff;
+ } 
+
+ .flex-control-paging li a.flex-active{
+  background: #ff0000;
+ }
+
+.flex-control-paging li{
+  float: none;
+}
+
+.footer{
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 667px) { 
+  .btn {
+    margin-left: 30%;
+  }
+
+  .container-fluid{
+    display: none;
+  }
+
+  iframe{
+    height:       50%;
+    width:        50%;
+    margin-left:  20%;
+  }
+}
